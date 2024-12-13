@@ -509,7 +509,7 @@
     },
     "workspace": {
       "type": "Microsoft.DesktopVirtualization/workspaces",
-      "apiVersion": "2022-10-14-preview",
+      "apiVersion": "2024-04-03",
       "name": "[parameters('name')]",
       "location": "[parameters('location')]",
       "tags": "[parameters('tags')]",
@@ -1268,7 +1268,7 @@
       "metadata": {
         "description": "The location of the workspace."
       },
-      "value": "[reference('workspace', '2022-10-14-preview', 'full').location]"
+      "value": "[reference('workspace', '2024-04-03', 'full').location]"
     }
   }
 }
